@@ -1,6 +1,6 @@
 from fastapi import FastAPI, WebSocket, Query
 from schema.candle import Candle
-from scanner import scan_patterns
+from utils.scanner import scan_patterns
 import json
 from datetime import date
 import httpx

@@ -2,3 +2,4 @@ fastapi
 websockets
 pydantic
 httpx
+uvicorn[standard]
